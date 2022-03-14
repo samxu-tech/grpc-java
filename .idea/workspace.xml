@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="grpc-java:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2574b617-05e8-4a25-8c4a-0d1484a6ad05" name="Default Changelist" comment="" />
+    <list default="true" id="2574b617-05e8-4a25-8c4a-0d1484a6ad05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/grpc_java_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/grpc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/grpc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/grpc/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/grpc/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/grpc/RecommendControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/grpc/RecommendControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/grpc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/grpc/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/grpc/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/grpc/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/grpc/RecommendControllerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/grpc/RecommendControllerImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +36,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1Zq5kCW4Falsv92iUwqAKrONCWc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/tutorial/grpc" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -30,7 +64,7 @@
       <recent name="F:\grpc\grpc3_30\src\main\proto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.grpc.App" />
       <module name="com.grpc.cube" />
@@ -46,7 +80,7 @@
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.grpc.Client" />
-      <module name="com.grpc.cube" />
+      <module name="grpc-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tutorial.grpc.*" />
@@ -90,8 +124,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -107,6 +141,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -117,37 +152,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585553924079</updated>
+      <workItem from="1647166416657" duration="4822000" />
+      <workItem from="1647220065640" duration="160000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585553987401">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585553987401" />
-    <state x="385" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585556108884">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="385" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1585556108884" />
-    <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1585556113648">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1585556113648" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1585622453474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585622453474" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1585622453474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585622453474" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1585622453474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585622453474" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1585622453474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585622453474" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

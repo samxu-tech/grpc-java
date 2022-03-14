@@ -11,9 +11,9 @@ public class RecommendControllerImpl extends RecommendControllerGrpc.RecommendCo
                                     io.grpc.stub.StreamObserver<recommend.Recommend.GetRecommendPostsIdResult> responseObserver){
         System.out.println(request);
         List<Integer> resultList=new ArrayList<Integer>();
-        resultList.add(1323);
-        resultList.add(1111);
-        resultList.add(1112);
+        resultList.add(request.getUserId());
+        resultList.add(request.getOffset());
+        resultList.add(request.getNumber());
         Recommend.GetRecommendPostsIdResult result=Recommend.GetRecommendPostsIdResult.newBuilder().addAllPostIdList(resultList).build();
 
         responseObserver.onNext(result);
